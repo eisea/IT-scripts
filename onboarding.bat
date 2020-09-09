@@ -18,7 +18,7 @@ IF "%pwcorrect%"=="n" (%0)
 rem echo Share drive? y/n
 rem set /p share=
 rem IF "%share%"=="y" (
-rem 	net use X: \\mecheng-fs.mit.edu\Share2\Share /user:%usern% %password% /persistent:yes
+rem 	net use X: \\SHARE_DRIVE_MOUNT_PATH_HERE /user:%usern% %password% /persistent:yes
 rem )
 
 echo Opening CrashPlan
